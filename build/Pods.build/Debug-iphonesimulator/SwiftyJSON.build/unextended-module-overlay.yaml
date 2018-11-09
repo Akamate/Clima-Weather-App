@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/unextended-module.modulemap",
+    }]
+  }]
+}

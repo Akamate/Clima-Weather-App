@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "41eb665c8bd3c484e46642ccd94b0883"
+build_time: [1541667904, 331843000]
+inputs:
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/AFError.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/Alamofire.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/MultipartFormData.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/Notifications.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/ParameterEncoding.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/Request.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/Response.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/ResponseSerialization.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/Result.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/SessionDelegate.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/SessionManager.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/TaskDelegate.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/Timeline.swift": [1541667857, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Pods/Alamofire/Source/Validation.swift": [1541667857, 0]

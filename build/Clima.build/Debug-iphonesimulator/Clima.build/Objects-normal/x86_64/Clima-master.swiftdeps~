@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "03f90e176d9a395d7d911939f020b932"
+build_time: [1541729581, 770235000]
+inputs:
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Clima/WeatherDataModel.swift": [1541693018, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Clima/WeatherViewController.swift": [1541728527, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Clima/AppDelegate.swift": [1541728527, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Clima-iOS11-master/Clima/ChangeCityViewController.swift": [1541728527, 0]
