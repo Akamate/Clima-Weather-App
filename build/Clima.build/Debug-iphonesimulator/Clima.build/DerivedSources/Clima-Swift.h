@@ -210,11 +210,24 @@ SWIFT_CLASS("_TtC5Clima24ChangeCityViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC5Clima14SegueFromRight")
+@interface SegueFromRight : UIStoryboardSegue
+- (void)perform;
+- (nonnull instancetype)initWithIdentifier:(NSString * _Nullable)identifier source:(UIViewController * _Nonnull)source destination:(UIViewController * _Nonnull)destination OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Clima20SegueFromRightUnwind")
+@interface SegueFromRightUnwind : UIStoryboardSegue
+- (void)perform;
+- (nonnull instancetype)initWithIdentifier:(NSString * _Nullable)identifier source:(UIViewController * _Nonnull)source destination:(UIViewController * _Nonnull)destination OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIImageView;
 @class UILabel;
 @class CLLocationManager;
 @class CLLocation;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC5Clima21WeatherViewController")
 @interface WeatherViewController : UIViewController <CLLocationManagerDelegate>

@@ -1,41 +1,385 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "SegueFromRight"
+- "SegueFromRightUnwind"
 provides-nominal:
+- "5Clima14SegueFromRightC"
+- "5Clima20SegueFromRightUnwindC"
 provides-member:
+- ["5Clima14SegueFromRightC", ""]
+- ["5Clima20SegueFromRightUnwindC", ""]
 provides-dynamic-lookup:
+- "perform"
 depends-top-level:
-- !private "/"
-- "/>"
-- "<"
-- "</"
-- "<?"
-- ">"
-- !private "?"
 - "AssignmentPrecedence"
-- "colorMatched"
-- "customClass"
-- "dependencies"
-- "document"
-- "encoding"
-- "id"
-- "identifier"
-- "objects"
-- "placeholder"
-- "placeholderIdentifier"
-- "plugIn"
-- "propertyAccessControl"
-- "standalone"
-- "targetRuntime"
-- "toolsVersion"
-- "type"
-- "useAutolayout"
-- "useSafeAreas"
-- "useTraitCollections"
-- "userLabel"
-- "version"
-- "xml"
+- !private "BooleanLiteralType"
+- !private "CGAffineTransform"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "SegueFromRight"
+- "SegueFromRightUnwind"
+- "UIStoryboardSegue"
+- !private "UIView"
+- !private "UIViewController"
 depends-member:
+- !private ["So22UIViewAnimationOptionsV", "curveEaseInOut"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "insertSubview"]
+- !private ["So15CALayerDelegateP", "superview"]
+- !private ["So15CALayerDelegateP", "transform"]
+- !private ["So17CGAffineTransformV", "init"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGAffineTransform"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertSubview"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "source"]
+- !private ["s7CVarArgP", "superview"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "CGAffineTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "source"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "superview"]
+- !private ["s17CustomReflectableP", "transform"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGAffineTransform"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertSubview"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "source"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["Se", "frame"]
+- !private ["Se", "init"]
+- !private ["Se", "size"]
+- !private ["Se", "superview"]
+- !private ["Se", "transform"]
+- !private ["Se", "width"]
+- !private ["SE", "frame"]
+- !private ["SE", "init"]
+- !private ["SE", "size"]
+- !private ["SE", "superview"]
+- !private ["SE", "transform"]
+- !private ["SE", "width"]
+- !private ["SQ", "CGAffineTransform"]
+- !private ["SQ", "UIView"]
+- ["SQ", ""]
+- !private ["SQ", "animate"]
+- !private ["SQ", "curveEaseInOut"]
+- !private ["SQ", "destination"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insertSubview"]
+- !private ["SQ", "present"]
+- !private ["SQ", "size"]
+- !private ["SQ", "source"]
+- !private ["SQ", "superview"]
+- !private ["SQ", "transform"]
+- !private ["SQ", "view"]
+- !private ["SQ", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "curveEaseInOut"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "superview"]
+- !private ["s23ExpressibleByNilLiteralP", "transform"]
+- !private ["SH", "CGAffineTransform"]
+- !private ["SH", "UIView"]
+- ["SH", ""]
+- !private ["SH", "animate"]
+- !private ["SH", "destination"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "insertSubview"]
+- !private ["SH", "present"]
+- !private ["SH", "source"]
+- !private ["SH", "superview"]
+- !private ["SH", "transform"]
+- !private ["SH", "view"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "insertSubview"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "superview"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So8NSObjectC", "CGAffineTransform"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "destination"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insertSubview"]
+- ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "source"]
+- !private ["So8NSObjectC", "superview"]
+- !private ["So8NSObjectC", "transform"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectP", "CGAffineTransform"]
+- !private ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "animate"]
+- !private ["So8NSObjectP", "destination"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "insertSubview"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "source"]
+- !private ["So8NSObjectP", "superview"]
+- !private ["So8NSObjectP", "transform"]
+- !private ["So8NSObjectP", "view"]
+- !private ["s9OptionSetP", "curveEaseInOut"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "superview"]
+- !private ["Sq", "transform"]
+- !private ["SY", "curveEaseInOut"]
+- !private ["5Clima14SegueFromRightC", "CGAffineTransform"]
+- !private ["5Clima14SegueFromRightC", "UIView"]
+- !private ["5Clima14SegueFromRightC", "UIViewController"]
+- !private ["5Clima14SegueFromRightC", "destination"]
+- ["5Clima14SegueFromRightC", "init"]
+- ["5Clima14SegueFromRightC", "perform"]
+- !private ["5Clima14SegueFromRightC", "source"]
+- !private ["5Clima20SegueFromRightUnwindC", "CGAffineTransform"]
+- !private ["5Clima20SegueFromRightUnwindC", "UIView"]
+- !private ["5Clima20SegueFromRightUnwindC", "UIViewController"]
+- !private ["5Clima20SegueFromRightUnwindC", "destination"]
+- ["5Clima20SegueFromRightUnwindC", "init"]
+- ["5Clima20SegueFromRightUnwindC", "perform"]
+- !private ["5Clima20SegueFromRightUnwindC", "source"]
+- !private ["s10SetAlgebraP", "curveEaseInOut"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "insertSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- !private ["So29UIAccessibilityIdentificationP", "transform"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "insertSubview"]
+- !private ["So12UIAppearanceP", "superview"]
+- !private ["So12UIAppearanceP", "transform"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "insertSubview"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- !private ["So21UIAppearanceContainerP", "transform"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "insertSubview"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- !private ["So17UICoordinateSpaceP", "transform"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "insertSubview"]
+- !private ["So13UIDynamicItemP", "superview"]
+- !private ["So13UIDynamicItemP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "insertSubview"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "insertSubview"]
+- !private ["So11UIFocusItemP", "superview"]
+- !private ["So11UIFocusItemP", "transform"]
+- !private ["So20UIFocusItemContainerP", "animate"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "insertSubview"]
+- !private ["So20UIFocusItemContainerP", "superview"]
+- !private ["So20UIFocusItemContainerP", "transform"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "insertSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- !private ["So30UIPasteConfigurationSupportingP", "transform"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "insertSubview"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "superview"]
+- !private ["So11UIResponderC", "transform"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "insertSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- !private ["So30UIResponderStandardEditActionsP", "transform"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So17UIStoryboardSegueC", "CGAffineTransform"]
+- !private ["So17UIStoryboardSegueC", "UIView"]
+- !private ["So17UIStoryboardSegueC", "UIViewController"]
+- ["So17UIStoryboardSegueC", ""]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- ["So17UIStoryboardSegueC", "init"]
+- !private ["So17UIStoryboardSegueC", "init"]
+- ["So17UIStoryboardSegueC", "perform"]
+- !private ["So17UIStoryboardSegueC", "source"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "insertSubview"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- !private ["So18UITraitEnvironmentP", "transform"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "animate"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "insertSubview"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "superview"]
+- !private ["So23UIUserActivityRestoringP", "transform"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "insertSubview"]
+- !private ["So6UIViewC", "superview"]
+- !private ["So6UIViewC", "transform"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "insertSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "superview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGAffineTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "source"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "superview"]
+- !private ["s21_ObjectiveCBridgeableP", "transform"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
 depends-nominal:
+- !private "So22UIViewAnimationOptionsV"
+- !private "So15CALayerDelegateP"
+- !private "So17CGAffineTransformV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "SY"
+- "5Clima14SegueFromRightC"
+- "5Clima20SegueFromRightUnwindC"
+- !private "s10SetAlgebraP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- "So17UIStoryboardSegueC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -72,4 +416,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "19d00cebd2e4c40655fc7aa6b3a8032f"
+interface-hash: "f15068c69c9db93d1b9a5467292e696f"
